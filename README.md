@@ -1,10 +1,7 @@
 # Desafio AWS + Terraform
 
-## Aluno
-**Eduardo Wesley Andrade Silva**
-
 ## Descrição
-Este desafio consiste em realizar o processo de provisionamento de infraestrutura na AWS utilizando Terraform. O objetivo é criar um grupo de segurança (Security Group), uma instância EC2 e realizar o deploy de um site via script (script.sh), com o resultado acessível via browser.
+Este desafio consiste em realizar o processo de provisionamento de infraestrutura na AWS utilizando Terraform. O objetivo é criar um grupo de segurança (Security Group), uma instância EC2 e realizar o deploy de um site via script (script.sh), com o resultado acessível via browser, com Terraform.
 
 ## Etapas do Desafio
 
@@ -34,3 +31,9 @@ Este desafio consiste em realizar o processo de provisionamento de infraestrutur
 - **Inicializar o Terraform**  
   ```bash
   terraform init
+- **Infraestrutura Provisória na AWS**  
+  ```bash
+  terraform apply
+- **Destruir Recursos Provisionados**  
+  ```bash
+  terraform destroy
